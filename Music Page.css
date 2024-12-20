@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url("https://new-assets.ccbp.in/frontend/static-website/moon-stars-bg.png");
+    background-size: cover;
+    font-family: Bree Serif;
+    height: 100vh;
+    padding: 30px;
+}
+
+.bg-text {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 70px;
+}
+
+.hdg-txt {
+    font-size: 30px;
+}
+
+.para-txt {
+    font-size: 15px;
+}
+
+.Ngt-isd-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-bg.png");
+    background-size: cover;
+    height: 30vh;
+    padding: 60px;
+    margin-top: 40px;
+
+}
+
+.Ngt-text {
+    font-size: 35px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.Para-B-text {
+    margin-top: 10px;
+}
+
+.GS-btn-container {
+    text-align: center;
+    padding: 10px;
+}
+
+.GS-button {
+    background-color: #8e97fd;
+    color: #ffffff;
+    border-radius: 20px;
+    width: 120px;
+}
+
+.D-bg-conatiner {
+    background-color: #03174c;
+    height: 125vh;
+    text-align: left;
+    font-family: Bree Serif;
+}
+
+.D-heading-text {
+    color: #ffffff;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.D-para-text {
+    color: #98a1bd;
+    margin: 10px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.DS-heading-text {
+    color: #ffffff;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.D-conatiner {
+    margin: 10px;
+}
+
+.DC-heading-text {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.DC-para-text {
+    color: #98a1bd;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.DB-conatiner {
+    text-align: left;
+}
+
+.DB-button {
+    width: 120px;
+    color: #ffffff;
+    background-color: #8e97fd;
+    border-radius: 20px;
+    margin: 10px;
+}

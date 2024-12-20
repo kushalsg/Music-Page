@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="Music Page.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="bg-container d-flex flex-column justify-content-center" id="sectionHomepage">
+        <div class="bg-text">
+            <h1 class="hdg-txt">Sleep Music</h1>
+            <p class="para-txt">Soothing bedtime music to help you fall into a deep and natural sleep</p>
+        </div>
+        <div class="Ngt-isd-container">
+            <div>
+                <h1 class="Ngt-text">Night Island</h1>
+            </div>
+        </div>
+        <p class="bg-text Para-B-text">Non-stop 8-hour mixes of our most popular sleep audio</p>
+        <div class="GS-btn-container">
+            <button class="btn GS-button" onclick="display('sectionDetailspage')">Get Started</button>
+        </div>
+    </div>
+    <div class="D-bg-conatiner" id="sectionDetailspage">
+        <div>
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/clouds-img.png" height=282px />
+        </div>
+        <div>
+            <h1 class="D-heading-text">Night Island</h1>
+            <p class="D-para-text">Ease the mind into a restful night's sleep with these deep, amblent tones.</p>
+            <p class="D-para-text">45 MIN SLEEP MUSIC</p>
+        </div>
+        <div>
+            <h1 class="DS-heading-text">Related</h1>
+            <div class="D-conatiner d-flex flex-row justify-content-between">
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-clouds-img.png" width=180px />
+                    <h1 class="DC-heading-text">Moon Clouds</h1>
+                    <p class="DC-para-text">55 MIN SLEEP MUSIC</p>
+                </div>
+                <div>
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sweet-sleep-img.png" width=180px />
+                    <h1 class="DC-heading-text">Sweet Sleep</h1>
+                    <p class="DC-para-text">60 MIN SLEEP MUSIC</p>
+                </div>
+            </div>
+            <div class="DB-conatiner">
+                <button class="DB-button btn" onclick="display('sectionHomepage')">Back</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+</html>
